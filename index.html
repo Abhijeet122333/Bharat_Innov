@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="favvicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="favvicon/favicon.svg" />
+    <link rel="shortcut icon" href="favvicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favvicon/apple-touch-icon.png" />
+    <link rel="manifest" href="favvicon/site.webmanifest" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>SLIET Mentorship Platform</h1>
+    <p>Connect with faculty mentors for academic and career guidance</p>
+</header>
+<nav style="background-color: #333; overflow: hidden; width: 100%;">
+    <ul style="list-style-type: none; margin: 0; padding: 0; display: flex;">
+        <li style="margin: 0;"><a href="#home">Home</a></li>
+        <li style="margin: 0;"><a href="#mentors">Mentors</a></li>
+        <li style="margin: 0;"><a href="#booking-status">Booking Status</a></li>
+        <li style="margin: 0;"><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="Mentors">
+        <h2>Available Mentors</h2>
+        <div class="mentor-profile">
+            <h3>Dr. Birmohan Singh</h3>
+            <p>Educational Qualification: Ph.D.,M.E.</p>
+            <p>Phone(O): +91-1672-253208</p>
+            <p>e-mail:birmohansingh@sliet.ac.in ,
+                birmohans@gmail.com</p>
+            <button class="book-slot-button" onclick="bookSlot('Dr. BirMohan Singh','8:00AM - 8:30AM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Damanpreet Singh</h3>
+            <p>Educational Qualification: Ph.D., M.Tech.,B.Tech.</p>
+            <p>Phone(O): +91-1672-253210</p>
+            <p>e-mail: damanpreet@sliet.ac.in</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr. Damanpreet Singh','8:30AM - 9:00AM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Major Singh Goraya</h3>
+            <p>Educational Qualification: Ph.D., M.Tech.,B.Tech.</p>
+            <p>Phone(O): +91-1672-253212</p>
+            <p>e-mail: mjrsingh@yahoo.ac.in</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr. Major Singh Goraya','9:00AM - 9:30AM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Manoj Sachan</h3>
+            <p>Educational Qualification: B.Tech(Computer Science) , M.E(Computer Science), Ph.D (Computer Science & Engineering)</p>
+            <p>Phone(O): +91-1672-253214</p>
+            <p>e-mail: manojsachan@sliet.ac.in, manojsachan@gmail.com</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr. Manoj Sachan','9:30AM - 10:00AM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Gurjinder Kaur</h3>
+            <p>Educational Qualification: B.E. Kyrgyz Technical University, Bishkek M.S. BITS, Pilani Ph.D SLIET, Longowal</p>
+            <p>Phone(O): +91-1672-253326</p>
+            <p>e-mail: gurjinder13@yahoo.com</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr. Gurjinder Kaur','10:00AM - 10:30AM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Amar Nath</h3>
+            <p>Educational Qualification: Ph.D. in CSE from IIT Roorkee, Sept. 2020. Thesis 'A Distributed Approach for Collaborative Task Execution in Dynamic Environment'   M. Tech. in CSE from NIT Rourkela, June 2014.   B. Tech. in CSE from  BIET Jhansi,  June 2006.</p>
+            <p>Phone(O): 01672-253610</p>
+            <p>e-mail: amarnath@sliet.ac.in</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr. Amar Nath','10:30AM - 11:00AM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Jagdeep Singh</h3>
+            <p>Educational Qualification: Ph.D.  entitled "Proficient Route Selection Strategies for Effective Routing in Delay-Tolerant Opportunistic Networks" from the University of Delhi, New Delhi,   M. Tech, Computer Science & Engineering,   B. Tech, Computer Science & Engineering</p>
+            <p>Phone(O): 01672-253320</p>
+            <p>e-mail: jagdeep@sliet.ac.in; jagdeepknit@gmail.com</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr. Jagdeep Singh','11:00AM - 11:30AM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Manminder Singh</h3>
+            <p>Educational Qualification: B.Tech (Computer Science & Engineering) M.Tech (Computer Science & Engineering) Ph. D (Computer Science & Engineering)</p>
+            <p>Phone(O): +91-01672-253328</p>
+            <p>e-mail: jagdeep@sliet.ac.in; jagdeepknit@gmail.com</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr. Manminder Singh','11:30AM - 12:00PM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Preetpal Kaur Buttar</h3>
+            <p>Educational Qualification: PhD (Computer Science & Engineering)</p>
+            <p>Phone(O): 01672-253614</p>
+            <p>e-mail: preetpal@sliet.ac.in</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr.Preetpal Kaur Buttar','12:00PM - 12:30PM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Tajinder Singh</h3>
+            <p>Educational Qualification: Ph.D entitled “Machine Learning Based Text Mining in Social Media” from National Institute of Technology, Hamirpur, India.</p>
+            <p>Phone(O): 91-6283963279</p>
+            <p>e-mail: tajindersingh@sliet.ac.in</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr.Tajinder Singh','12:30PM - 1:00PM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. Utkarsh</h3>
+            <p>Educational Qualification: Doctor of Philosophy School of Computer & Systems Sciences Jawaharlal Nehru University, New Delhi, India   Master of Technology (Computer Science and Technology) School of Computer & Systems Sciences Jawaharlal Nehru University, New Delhi, India   Bachelor of Technology (Information Technology) University Institute of Engineering & Technology CSJM University, Kanpur, India</p>
+            <p>Phone(O): 91-6283963289</p>
+            <p>e-mail: Utkarsh@sliet.ac.in</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr.Utkarsh','1:00PM - 1:30PM')">Book Slot</button>
+        </div>
+            <div class="mentor-profile">
+            <h3>Dr. VINOD KUMAR VERMA</h3>
+            <p>Educational Qualification: Ph.D. Computer Science and Engineering</p>
+            <p>Phone(O): +91-1672-253218</p>
+            <p>e-mail: vinod5881@gmail.com</p>
+            <button class="book-slot-button"  onclick="bookSlot('Dr.VINOD KUMAR VERMA','2:00PM - 2:30PM')">Book Slot</button>
+        </div>
+    </section>
+            
+    <section id="booking-status">
+        <h2>Booking Status</h2>
+        <div id="notification"></div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 SLIET Mentorship Platform</p>
+    <div class="social-media">
+        <a href="#" style="color: white; margin: 0 10px;">Facebook</a>
+        <a href="#" style="color: white; margin: 0 10px;">Twitter</a>
+        <a href="#" style="color: white; margin: 0 10px;">LinkedIn</a>
+    </div>
+</footer>
+
+</body>
+</html>

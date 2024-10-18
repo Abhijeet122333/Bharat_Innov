@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f0f4f8, #e1e8f0);
+    font-family: 'Arial', sans-serif; 
+}
+
+header{
+    margin: 0;
+    padding: 10px;
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    position: sticky; 
+    top: 0; 
+    z-index: 1000;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s; 
+}
+
+nav a:hover {
+    background-color: #555; 
+}
+
+header h1{
+    margin-bottom: 0;
+}
+header p{
+    margin-top: 0;
+}
+main{
+    margin: 5px;
+    padding: 20px;
+}
+main h2{
+   display: inline;
+   background-color: lightcoral;
+   text-decoration:underline;
+   font-size: medium;
+   font-style: normal;
+   margin: 0px 5px;
+   border-radius: 5px;
+   text-align: center;
+   padding: 6px;
+}
+.mentor-profile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main h3 {
+    color: #333; 
+}
+
+main h3{
+    text-decoration:underline;
+}
+
+.book-slot-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.book-slot-button:hover {
+    background-color: darkblue; 
+    transform: scale(1.05); 
+}
+
+#notification{
+    background-color: lightcoral;
+    padding: 8px;
+    margin: 0;
+    color: rgb(182, 41, 41);
+}
+#booking-status{
+    padding:5px;
+   top:5px;
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; 
+    }
+    .Mentor-profile {
+        padding: 10px; 
+    }
+}
+.social-media a:hover {
+    text-decoration: underline; 
+}
+#notification {
+    background-color: #ffcccb; 
+    border: 1px solid #f00; 
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px; 
+    font-weight: bold; 
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
